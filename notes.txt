@@ -1,0 +1,1 @@
+# Combination : An example of code finding out all possible combination of the items of an list using python.
