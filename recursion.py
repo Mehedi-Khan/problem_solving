@@ -1,4 +1,5 @@
-'''
+# Remove triple quote to execute the file
+"""
 # fibonacci using for loop
 n = int(input())
 p1 = 1
@@ -10,7 +11,7 @@ for i in range(n-3):
     p2 = nth
 print(nth)
 
-'''
+
 n = int(input())
 p1 = 1
 p2 = 1
@@ -27,3 +28,18 @@ def fibo(p1, p2):
     return fibo(p1, p2)
 
 print(fibo(p1, p2))
+# New Practice on recursion
+def new_recursion(n):
+    if n == 1:
+        return 1
+    elif n == 2:
+        return 1
+    else:
+        return new_recursion(n - 1) + new_recursion(n - 2)
+
+
+print(new_recursion(10))
+
+"""
+
+
